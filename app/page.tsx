@@ -137,7 +137,7 @@ export default function Personal() {
       >
         <div className="flex-1">
           <p className="text-zinc-600 dark:text-zinc-400">
-            Focused on developing reliable and performant data services.
+            Focused on developing reliable and performant data solutions.
             Bridging the gap between software and data.
           </p>
         </div>
