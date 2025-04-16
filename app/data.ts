@@ -2,7 +2,8 @@ type Project = {
   name: string
   description: string
   link: string
-  video: string
+  // video: string
+  image: string
   id: string
 }
 
@@ -27,22 +28,40 @@ type SocialLink = {
   link: string
 }
 
+// export const PROJECTS: Project[] = [
+//   {
+//     name: 'Token Traveler',
+//     description: 'Augmented Reality Android mobile app where players collect beer, park, and coffee tokens.',
+//     link: 'https://github.com/odowdbrendan/TokenTraveler',
+//     video:
+//       'https://github.com/odowdbrendan/TokenTraveler',
+//     id: 'project1',
+//   },
+//   {
+//     name: 'Fantasy Football Helper',
+//     description:
+//       'Data-driven fantasy football companion that uses predictive analytics and AI to guide your team management decisions.',
+//     link: 'https://www.google.com',
+//     video:
+//       'https://github.com/odowdbrendan/',
+//     id: 'project2',
+//   },
+// ]
+
 export const PROJECTS: Project[] = [
   {
     name: 'Token Traveler',
     description: 'Augmented Reality Android mobile app where players collect beer, park, and coffee tokens.',
     link: 'https://github.com/odowdbrendan/TokenTraveler',
-    video:
-      'https://github.com/odowdbrendan/TokenTraveler',
+    image:'/avl.jpg',
     id: 'project1',
   },
   {
     name: 'Fantasy Football Helper',
     description:
-      'Regonition system that offers fantasy football reccomendations based on your current team and AI predicited trends',
+      'Data-driven fantasy football companion that uses predictive analytics and AI to guide your team management decisions.',
     link: 'https://www.google.com',
-    video:
-      'https://github.com/odowdbrendan/',
+    image:'/avl.jpg',
     id: 'project2',
   },
 ]
