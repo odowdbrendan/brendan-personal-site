@@ -29,20 +29,20 @@ type SocialLink = {
 
 export const PROJECTS: Project[] = [
   {
+    name: 'Token Traveler',
+    description: 'Augmented Reality Android mobile app where players collect beer, park, and coffee tokens.',
+    link: 'https://github.com/odowdbrendan/TokenTraveler',
+    video:
+      'https://github.com/odowdbrendan/TokenTraveler',
+    id: 'project1',
+  },
+  {
     name: 'Fantasy Football Helper',
     description:
       'Regonition system that offers fantasy football reccomendations based on your current team and AI predicited trends',
     link: 'https://www.google.com',
     video:
-      'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/XSfIvT7BUWbPRXhrbLed/ee6871c9-8400-49d2-8be9-e32675eabf7e.mp4?_a=DATAdtAAZAA0',
-    id: 'project1',
-  },
-  {
-    name: 'Token Traveler',
-    description: 'Augmented Reality Android mobile app where players collect beer, park, and coffee tokens.',
-    link: 'https://www.google.com',
-    video:
-      'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/XSfIvT7BUWbPRXhrbLed/ee6871c9-8400-49d2-8be9-e32675eabf7e.mp4?_a=DATAdtAAZAA0',
+      'https://github.com/odowdbrendan/',
     id: 'project2',
   },
 ]
@@ -72,13 +72,35 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
     link: 'https://pharmacy.amazon.com/',
     id: 'work3',
   },
+  {
+    company: 'Farragut Systems',
+    title: 'SQL Developer',
+    start: '2021',
+    end: '2021',
+    link: 'https://farragut.com/',
+    id: 'work4',
+  },
+  {
+    company: 'HomeTrust Bank',
+    title: 'Business Intelligence Developer',
+    start: '2019',
+    end: '2021',
+    link: 'https://htb.com/',
+    id: 'work4',
+  },
 ]
 
 export const BLOG_POSTS: BlogPost[] = [
   {
-    title: 'My Journey working at Amazon',
+    title: 'My Journey Working at Amazon',
     description: 'My experience working in data roles at Amazon.',
-    link: '/blog/exploring-the-intersection-of-design-ai-and-design-engineering',
+    link: '/blog/my-journey-at-amazon',
+    uid: 'blog-1',
+  },
+  {
+    title: 'FAANG Data Engineering Interview Guide',
+    description: 'Get help passing FAANG data interviews',
+    link: '/blog/faang-interview-guide',
     uid: 'blog-1',
   },
 ]
