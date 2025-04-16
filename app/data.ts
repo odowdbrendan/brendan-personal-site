@@ -33,12 +33,16 @@ export const PROJECTS: Project[] = [
     description:
       'Regonition system that offers fantasy football reccomendations based on your current team and AI predicited trends',
     link: 'https://www.google.com',
+    video:
+      'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/XSfIvT7BUWbPRXhrbLed/ee6871c9-8400-49d2-8be9-e32675eabf7e.mp4?_a=DATAdtAAZAA0',
     id: 'project1',
   },
   {
     name: 'Token Traveler',
     description: 'Augmented Reality Android mobile app where players collect beer, park, and coffee tokens.',
     link: 'https://www.google.com',
+    video:
+      'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/XSfIvT7BUWbPRXhrbLed/ee6871c9-8400-49d2-8be9-e32675eabf7e.mp4?_a=DATAdtAAZAA0',
     id: 'project2',
   },
 ]
