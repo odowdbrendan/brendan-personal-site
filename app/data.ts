@@ -2,7 +2,7 @@ type Project = {
   name: string
   description: string
   link: string
-  video?: string
+  video: string
   id: string
 }
 
@@ -32,13 +32,13 @@ export const PROJECTS: Project[] = [
     name: 'Fantasy Football Helper',
     description:
       'Regonition system that offers fantasy football reccomendations based on your current team and AI predicited trends',
-    link: '',
+    link: 'https://www.google.com',
     id: 'project1',
   },
   {
     name: 'Token Traveler',
     description: 'Augmented Reality Android mobile app where players collect beer, park, and coffee tokens.',
-    link: '',
+    link: 'https://www.google.com',
     id: 'project2',
   },
 ]
